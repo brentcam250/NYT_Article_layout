@@ -1,13 +1,25 @@
+body {
+  margin: 0;
+}
+
 .navbar{
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(170, 176, 182);
 }
+.nav-container {
+  position: fixed;
+  width: 100%;
+  background-color: whitesmoke;
+}
 
 .container {
+  padding-top: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 1.25rem;
 }
 
 .promotion{
@@ -16,4 +28,10 @@
 
 .article-body{
   width: 50%
+}
+
+.subscribe {
+  border-top: 1px solid slategray;
+  border-bottom: 1px solid slategray;
+  padding: 10px;
 }
