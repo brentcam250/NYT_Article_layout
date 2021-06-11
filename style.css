@@ -28,6 +28,12 @@ body {
   border-radius: 3px;
 }
 
+.article-title{
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px;
+}
 .main {
   padding-top: 90px;
 }
@@ -146,4 +152,13 @@ body {
 
 .half {
   width: 50%;
+}
+
+.article-foot {
+  width: 50%;
+  font-size: small;
+}
+
+.article-foot a {
+  color: gray;
 }
