@@ -4,17 +4,34 @@ body {
 
 .navbar{
   display: flex;
+  flex: 1;
   justify-content: space-between;
   border-bottom: 1px solid rgb(170, 176, 182);
 }
 .nav-container {
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   background-color: whitesmoke;
 }
+.buttons{
+  display: flex;
+  margin: 10px;
+  padding: 10px; 
+}
+.button {
+  background-color: #567b95;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+}
 
-.container {
+.main {
   padding-top: 90px;
+}
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,6 +39,20 @@ body {
   font-size: 1.25rem;
 }
 
+.author{
+  color: black;
+  align-self: flex-start;
+  margin: 0;
+  font-size:medium;
+}
+
+.author a {
+  color: black;
+}
+
+.date {
+  font-size: small;
+}
 .promotion{
   display: flex;
 }
@@ -97,4 +128,22 @@ body {
   border-radius: 2px;
   padding: 7px 20px 7px 20px;
   margin: 3px;
+}
+
+.subscribe {
+  font-weight: bold; 
+}
+.subscribe a {
+  text-decoration: none;
+  font-size: medium;
+  color: #326891;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.half {
+  width: 50%;
 }
