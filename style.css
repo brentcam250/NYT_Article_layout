@@ -145,6 +145,11 @@ body {
   color: #326891;
 }
 
+.inflation {
+  width: 70%;
+  border: 1px solid black;
+}
+
 .flex {
   display: flex;
   flex-direction: column;
@@ -161,4 +166,40 @@ body {
 
 .article-foot a {
   color: gray;
+}
+
+
+.more-in-space {
+  border-top: 1px solid black;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.suggested-story {
+ margin: 20px;
+ display: flex;
+ flex-direction: column;
+}
+
+.suggested-story img {
+  /* width: 265px;  */
+  flex: 1;
+}
+.suggested-story p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.suggested-story-tagline {
+  align-self: flex-end;
+  font-size: x-small;
+}
+
+.suggested-story-date {
+  font-size: x-small;
+}
+
+.suggested-story-title {
+  font-size:  medium;
 }
