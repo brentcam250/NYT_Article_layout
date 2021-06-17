@@ -243,3 +243,13 @@ body {
   color: grey;
   font-size: medium;
 }
+
+.footer-legal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-legal-links{
+
+}
