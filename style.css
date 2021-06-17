@@ -171,15 +171,33 @@ body {
 
 .more-in-space {
   border-top: 1px solid black;
-  margin-top: 10px;
+  margin: 10px;
   display: flex;
   flex-wrap: wrap;
+  flex-basis: 2;
+}
+.suggested {
+  padding: 0;
+  margin: 5px;
+  width: 100%;
+
+}
+
+.post-article-links{
+  display: flex;
+}
+
+.most-popular {
+  border: 2px solid red;
+  margin: 10px;
+  flex: 1;
 }
 
 .suggested-story {
- margin: 20px;
+ margin: 10px;
  display: flex;
  flex-direction: column;
+ width: 30%;
 }
 
 .suggested-story img {
