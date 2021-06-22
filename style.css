@@ -251,5 +251,40 @@ body {
 }
 
 .footer-legal-links{
+  display: flex; 
+}
 
+.footer-legal-links a {
+  flex: 1;
+  margin: 5px;
+  font-size: small;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links{
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.footer-links-column{
+  flex: 1;
+  display: flex; 
+  flex-direction: column;
+}
+
+.footer-links-column-title{ 
+  font-weight: bold;
+  font-size: small;
+}
+
+.footer-links-link{
+  font-size: small;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links-link:hover{
+  color: grey;
 }
