@@ -14,7 +14,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: white;
 }
 .buttons{
   display: flex;
@@ -155,9 +155,32 @@ body {
   font-size: medium;
   color: #326891;
 }
+.sidecar {
+  align-self: flex-end;
+  margin-right: 10px;
+  /* margin-left: 200px; */
+}
+.sidecar-title{
+  border-bottom: 1px solid grey;
+  font-weight: bold;
+  font-size: medium;
+}
+.sidecar-story{
+  display: flex;
+  margin-bottom: 5px;
+  font-size: small;
+}
+.sidecar-photo{
+  height: 75px;
+  width: 75px;
+}
 
 .inflation {
-  width: 50%;
+  width: 70%;
+}
+
+.inflation-graphic {
+  width: 100%;
 }
 
 .flex {
